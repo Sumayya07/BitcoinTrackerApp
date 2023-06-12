@@ -1,0 +1,665 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA1225B72A378BA30001A8F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1225B62A378BA30001A8F3 /* AppDelegate.swift */; };
+		CA1225B92A378BA30001A8F3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1225B82A378BA30001A8F3 /* SceneDelegate.swift */; };
+		CA1225BB2A378BA30001A8F3 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1225BA2A378BA30001A8F3 /* WelcomeViewController.swift */; };
+		CA1225BE2A378BA30001A8F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA1225BC2A378BA30001A8F3 /* Main.storyboard */; };
+		CA1225C02A378BA30001A8F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA1225BF2A378BA30001A8F3 /* Assets.xcassets */; };
+		CA1225C32A378BA30001A8F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA1225C12A378BA30001A8F3 /* LaunchScreen.storyboard */; };
+		CA1225CE2A378C250001A8F3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1225CD2A378C250001A8F3 /* LoginViewController.swift */; };
+		CA1225D02A378C2C0001A8F3 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1225CF2A378C2C0001A8F3 /* SignupViewController.swift */; };
+		CA1225D22A378C350001A8F3 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1225D12A378C350001A8F3 /* InfoViewController.swift */; };
+		CA1225D42A378C460001A8F3 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1225D32A378C450001A8F3 /* CustomTextField.swift */; };
+		CA1225D62A378C640001A8F3 /* SignupButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1225D52A378C640001A8F3 /* SignupButton.swift */; };
+		CA1225D82A378C710001A8F3 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1225D72A378C710001A8F3 /* APICaller.swift */; };
+		CA1225DA2A378C7B0001A8F3 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1225D92A378C7B0001A8F3 /* Models.swift */; };
+		CA1225DD2A378CB20001A8F3 /* CryptoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1225DC2A378CB20001A8F3 /* CryptoTableViewCell.swift */; };
+		CA1225E52A378CF60001A8F3 /* PepcornsLLPAssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1225E42A378CF60001A8F3 /* PepcornsLLPAssignmentTests.swift */; };
+		CA1225F22A378D010001A8F3 /* PepcornsLLPAssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1225F12A378D010001A8F3 /* PepcornsLLPAssignmentUITests.swift */; };
+		CA1225F42A378D010001A8F3 /* PepcornsLLPAssignmentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1225F32A378D010001A8F3 /* PepcornsLLPAssignmentUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA1225E62A378CF60001A8F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA1225AB2A378BA30001A8F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA1225B22A378BA30001A8F3;
+			remoteInfo = PepcornsLLPAssignment;
+		};
+		CA1225F52A378D010001A8F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA1225AB2A378BA30001A8F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA1225B22A378BA30001A8F3;
+			remoteInfo = PepcornsLLPAssignment;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CA1225B32A378BA30001A8F3 /* PepcornsLLPAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PepcornsLLPAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA1225B62A378BA30001A8F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CA1225B82A378BA30001A8F3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CA1225BA2A378BA30001A8F3 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		CA1225BD2A378BA30001A8F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA1225BF2A378BA30001A8F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA1225C22A378BA30001A8F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA1225C42A378BA30001A8F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA1225CD2A378C250001A8F3 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		CA1225CF2A378C2C0001A8F3 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		CA1225D12A378C350001A8F3 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		CA1225D32A378C450001A8F3 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		CA1225D52A378C640001A8F3 /* SignupButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupButton.swift; sourceTree = "<group>"; };
+		CA1225D72A378C710001A8F3 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		CA1225D92A378C7B0001A8F3 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		CA1225DC2A378CB20001A8F3 /* CryptoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTableViewCell.swift; sourceTree = "<group>"; };
+		CA1225E22A378CF60001A8F3 /* PepcornsLLPAssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PepcornsLLPAssignmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA1225E42A378CF60001A8F3 /* PepcornsLLPAssignmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PepcornsLLPAssignmentTests.swift; sourceTree = "<group>"; };
+		CA1225EF2A378D010001A8F3 /* PepcornsLLPAssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PepcornsLLPAssignmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA1225F12A378D010001A8F3 /* PepcornsLLPAssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PepcornsLLPAssignmentUITests.swift; sourceTree = "<group>"; };
+		CA1225F32A378D010001A8F3 /* PepcornsLLPAssignmentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PepcornsLLPAssignmentUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA1225B02A378BA30001A8F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA1225DF2A378CF60001A8F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA1225EC2A378D010001A8F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA1225AA2A378BA30001A8F3 = {
+			isa = PBXGroup;
+			children = (
+				CA1225B52A378BA30001A8F3 /* PepcornsLLPAssignment */,
+				CA1225E32A378CF60001A8F3 /* PepcornsLLPAssignmentTests */,
+				CA1225F02A378D010001A8F3 /* PepcornsLLPAssignmentUITests */,
+				CA1225B42A378BA30001A8F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA1225B42A378BA30001A8F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA1225B32A378BA30001A8F3 /* PepcornsLLPAssignment.app */,
+				CA1225E22A378CF60001A8F3 /* PepcornsLLPAssignmentTests.xctest */,
+				CA1225EF2A378D010001A8F3 /* PepcornsLLPAssignmentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA1225B52A378BA30001A8F3 /* PepcornsLLPAssignment */ = {
+			isa = PBXGroup;
+			children = (
+				CA1225CA2A378BAA0001A8F3 /* View */,
+				CA1225CC2A378BCA0001A8F3 /* Modules */,
+				CA1225CB2A378BB60001A8F3 /* Extension */,
+				CA1225DB2A378C810001A8F3 /* Cell */,
+				CA1225B62A378BA30001A8F3 /* AppDelegate.swift */,
+				CA1225B82A378BA30001A8F3 /* SceneDelegate.swift */,
+				CA1225BF2A378BA30001A8F3 /* Assets.xcassets */,
+				CA1225C42A378BA30001A8F3 /* Info.plist */,
+			);
+			path = PepcornsLLPAssignment;
+			sourceTree = "<group>";
+		};
+		CA1225CA2A378BAA0001A8F3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CA1225BC2A378BA30001A8F3 /* Main.storyboard */,
+				CA1225C12A378BA30001A8F3 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CA1225CB2A378BB60001A8F3 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CA1225D32A378C450001A8F3 /* CustomTextField.swift */,
+				CA1225D52A378C640001A8F3 /* SignupButton.swift */,
+				CA1225D72A378C710001A8F3 /* APICaller.swift */,
+				CA1225D92A378C7B0001A8F3 /* Models.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		CA1225CC2A378BCA0001A8F3 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				CA1225BA2A378BA30001A8F3 /* WelcomeViewController.swift */,
+				CA1225CD2A378C250001A8F3 /* LoginViewController.swift */,
+				CA1225CF2A378C2C0001A8F3 /* SignupViewController.swift */,
+				CA1225D12A378C350001A8F3 /* InfoViewController.swift */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		CA1225DB2A378C810001A8F3 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				CA1225DC2A378CB20001A8F3 /* CryptoTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		CA1225E32A378CF60001A8F3 /* PepcornsLLPAssignmentTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA1225E42A378CF60001A8F3 /* PepcornsLLPAssignmentTests.swift */,
+			);
+			path = PepcornsLLPAssignmentTests;
+			sourceTree = "<group>";
+		};
+		CA1225F02A378D010001A8F3 /* PepcornsLLPAssignmentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CA1225F12A378D010001A8F3 /* PepcornsLLPAssignmentUITests.swift */,
+				CA1225F32A378D010001A8F3 /* PepcornsLLPAssignmentUITestsLaunchTests.swift */,
+			);
+			path = PepcornsLLPAssignmentUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA1225B22A378BA30001A8F3 /* PepcornsLLPAssignment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA1225C72A378BA30001A8F3 /* Build configuration list for PBXNativeTarget "PepcornsLLPAssignment" */;
+			buildPhases = (
+				CA1225AF2A378BA30001A8F3 /* Sources */,
+				CA1225B02A378BA30001A8F3 /* Frameworks */,
+				CA1225B12A378BA30001A8F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PepcornsLLPAssignment;
+			productName = PepcornsLLPAssignment;
+			productReference = CA1225B32A378BA30001A8F3 /* PepcornsLLPAssignment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA1225E12A378CF60001A8F3 /* PepcornsLLPAssignmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA1225E82A378CF60001A8F3 /* Build configuration list for PBXNativeTarget "PepcornsLLPAssignmentTests" */;
+			buildPhases = (
+				CA1225DE2A378CF60001A8F3 /* Sources */,
+				CA1225DF2A378CF60001A8F3 /* Frameworks */,
+				CA1225E02A378CF60001A8F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA1225E72A378CF60001A8F3 /* PBXTargetDependency */,
+			);
+			name = PepcornsLLPAssignmentTests;
+			productName = PepcornsLLPAssignmentTests;
+			productReference = CA1225E22A378CF60001A8F3 /* PepcornsLLPAssignmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CA1225EE2A378D010001A8F3 /* PepcornsLLPAssignmentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA1225F72A378D010001A8F3 /* Build configuration list for PBXNativeTarget "PepcornsLLPAssignmentUITests" */;
+			buildPhases = (
+				CA1225EB2A378D010001A8F3 /* Sources */,
+				CA1225EC2A378D010001A8F3 /* Frameworks */,
+				CA1225ED2A378D010001A8F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA1225F62A378D010001A8F3 /* PBXTargetDependency */,
+			);
+			name = PepcornsLLPAssignmentUITests;
+			productName = PepcornsLLPAssignmentUITests;
+			productReference = CA1225EF2A378D010001A8F3 /* PepcornsLLPAssignmentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA1225AB2A378BA30001A8F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					CA1225B22A378BA30001A8F3 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					CA1225E12A378CF60001A8F3 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = CA1225B22A378BA30001A8F3;
+					};
+					CA1225EE2A378D010001A8F3 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = CA1225B22A378BA30001A8F3;
+					};
+				};
+			};
+			buildConfigurationList = CA1225AE2A378BA30001A8F3 /* Build configuration list for PBXProject "PepcornsLLPAssignment" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA1225AA2A378BA30001A8F3;
+			productRefGroup = CA1225B42A378BA30001A8F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA1225B22A378BA30001A8F3 /* PepcornsLLPAssignment */,
+				CA1225E12A378CF60001A8F3 /* PepcornsLLPAssignmentTests */,
+				CA1225EE2A378D010001A8F3 /* PepcornsLLPAssignmentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA1225B12A378BA30001A8F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA1225C32A378BA30001A8F3 /* LaunchScreen.storyboard in Resources */,
+				CA1225C02A378BA30001A8F3 /* Assets.xcassets in Resources */,
+				CA1225BE2A378BA30001A8F3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA1225E02A378CF60001A8F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA1225ED2A378D010001A8F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA1225AF2A378BA30001A8F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA1225DD2A378CB20001A8F3 /* CryptoTableViewCell.swift in Sources */,
+				CA1225D42A378C460001A8F3 /* CustomTextField.swift in Sources */,
+				CA1225CE2A378C250001A8F3 /* LoginViewController.swift in Sources */,
+				CA1225D02A378C2C0001A8F3 /* SignupViewController.swift in Sources */,
+				CA1225BB2A378BA30001A8F3 /* WelcomeViewController.swift in Sources */,
+				CA1225D82A378C710001A8F3 /* APICaller.swift in Sources */,
+				CA1225B72A378BA30001A8F3 /* AppDelegate.swift in Sources */,
+				CA1225D22A378C350001A8F3 /* InfoViewController.swift in Sources */,
+				CA1225B92A378BA30001A8F3 /* SceneDelegate.swift in Sources */,
+				CA1225D62A378C640001A8F3 /* SignupButton.swift in Sources */,
+				CA1225DA2A378C7B0001A8F3 /* Models.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA1225DE2A378CF60001A8F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA1225E52A378CF60001A8F3 /* PepcornsLLPAssignmentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA1225EB2A378D010001A8F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA1225F42A378D010001A8F3 /* PepcornsLLPAssignmentUITestsLaunchTests.swift in Sources */,
+				CA1225F22A378D010001A8F3 /* PepcornsLLPAssignmentUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA1225E72A378CF60001A8F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA1225B22A378BA30001A8F3 /* PepcornsLLPAssignment */;
+			targetProxy = CA1225E62A378CF60001A8F3 /* PBXContainerItemProxy */;
+		};
+		CA1225F62A378D010001A8F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA1225B22A378BA30001A8F3 /* PepcornsLLPAssignment */;
+			targetProxy = CA1225F52A378D010001A8F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CA1225BC2A378BA30001A8F3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA1225BD2A378BA30001A8F3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA1225C12A378BA30001A8F3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA1225C22A378BA30001A8F3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA1225C52A378BA30001A8F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CA1225C62A378BA30001A8F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA1225C82A378BA30001A8F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SDANUXUBFX;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PepcornsLLPAssignment/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sumayya.PepcornsLLPAssignment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA1225C92A378BA30001A8F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SDANUXUBFX;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PepcornsLLPAssignment/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sumayya.PepcornsLLPAssignment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CA1225E92A378CF60001A8F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SDANUXUBFX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sumayya.PepcornsLLPAssignmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PepcornsLLPAssignment.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PepcornsLLPAssignment";
+			};
+			name = Debug;
+		};
+		CA1225EA2A378CF60001A8F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SDANUXUBFX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sumayya.PepcornsLLPAssignmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PepcornsLLPAssignment.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PepcornsLLPAssignment";
+			};
+			name = Release;
+		};
+		CA1225F82A378D010001A8F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SDANUXUBFX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sumayya.PepcornsLLPAssignmentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PepcornsLLPAssignment;
+			};
+			name = Debug;
+		};
+		CA1225F92A378D010001A8F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SDANUXUBFX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sumayya.PepcornsLLPAssignmentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PepcornsLLPAssignment;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA1225AE2A378BA30001A8F3 /* Build configuration list for PBXProject "PepcornsLLPAssignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA1225C52A378BA30001A8F3 /* Debug */,
+				CA1225C62A378BA30001A8F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA1225C72A378BA30001A8F3 /* Build configuration list for PBXNativeTarget "PepcornsLLPAssignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA1225C82A378BA30001A8F3 /* Debug */,
+				CA1225C92A378BA30001A8F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA1225E82A378CF60001A8F3 /* Build configuration list for PBXNativeTarget "PepcornsLLPAssignmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA1225E92A378CF60001A8F3 /* Debug */,
+				CA1225EA2A378CF60001A8F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA1225F72A378D010001A8F3 /* Build configuration list for PBXNativeTarget "PepcornsLLPAssignmentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA1225F82A378D010001A8F3 /* Debug */,
+				CA1225F92A378D010001A8F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA1225AB2A378BA30001A8F3 /* Project object */;
+}
