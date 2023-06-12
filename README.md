@@ -4,8 +4,7 @@ The Bitcoin Tracker App is a mobile application that allows users to track the p
 
 <p align="center">
 
-
- <img src="https://github.com/Sumayya07/PepcornsLLPAssignment/assets/95580926/ec8ed7d7-be77-4908-bbba-b41117cc1f00.png" width="25%">
+ <img src="https://github.com/Sumayya07/PepcornsLLPAssignment/assets/95580926/10914a8b-0828-4e24-9b75-169b16471104.png" width="25%">
   <img src="https://github.com/Sumayya07/PepcornsLLPAssignment/assets/95580926/20312c96-3e62-4d2b-88b7-889793500378.png" width="25%">
    <img src="https://github.com/Sumayya07/PepcornsLLPAssignment/assets/95580926/17364505-dc64-4a43-8608-8d8905118677.png" width="25%">
     <img src="https://github.com/Sumayya07/PepcornsLLPAssignment/assets/95580926/76c8fcb8-043a-4431-827c-98aca5a5812a.png" width="25%">
